@@ -1,0 +1,5 @@
+fragment pizzaSize on pizzaSize {
+  name
+  maxToppings
+  basePrice
+}

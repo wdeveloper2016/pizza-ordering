@@ -1,0 +1,6 @@
+fragment topping on pizzaToppingConnection {
+  topping {
+    name
+    price
+  }
+}

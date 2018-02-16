@@ -1,0 +1,12 @@
+#import "./pizzaSize.gql"
+#import "./topping.gql"
+
+query pizzaSizes {
+  pizzaSizes {
+    ...pizzaSize
+    toppings {
+      ...topping
+      selected: defaultSelected
+    }
+  }
+}
